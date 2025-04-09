@@ -8,10 +8,20 @@
 
 /* General button styling */
 .image-button {
-  width: 100px;  /* Buttons width */
-  height: 100px;  /* Buttons height */
-  border: none;
+  width: 150px;  /* Rectangular width */
+  height: 80px;  /* Rectangular height */
+  border: 2px solid #365B6D; /* Border around each button */
+  border-radius: 12px; /* Rounded corners for each button */
   cursor: pointer;
+  padding: 10px; /* Padding inside the button for spacing */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effects */
+  background-color: #fff; /* Button background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow to make buttons pop */
+}
+
+/* Hover effect for buttons */
+.image-button:hover {
+  transform: scale(1.05); /* Slightly increase button size on hover */
 }
 
 /* Button container - using flexbox for layout */
@@ -38,13 +48,13 @@
 @media (max-width: 768px) {
   /* Button size adjustments for mobile */
   .image-button {
-      width: 80px;  /* Smaller button size for smaller screens */
-      height: 80px;
+    width: 120px;  /* Smaller width for mobile */
+    height: 60px;  /* Smaller height for mobile */
   }
 
   /* Adjust container for mobile to stack buttons */
   .button-container {
-      flex-direction: column;  /* Stack the buttons vertically */
-      justify-content: center; /* Center the buttons horizontally */
+    flex-direction: column;  /* Stack the buttons vertically */
+    justify-content: center; /* Center the buttons horizontally */
   }
 }
