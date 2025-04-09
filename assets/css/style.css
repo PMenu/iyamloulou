@@ -48,8 +48,8 @@
 @media (max-width: 768px) {
   /* Make buttons bigger on mobile */
   .image-button {
-    width: 180px;  /* Larger width for mobile */
-    height: 100px;  /* Larger height for mobile */
+    width: 260px;  /* Larger width for mobile */
+    height: 145px;  /* Larger height for mobile */
   }
 
   /* Adjust container for mobile to stack buttons */
