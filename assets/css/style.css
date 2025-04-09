@@ -46,10 +46,10 @@
 
 /* Media query adjustments for smaller screens */
 @media (max-width: 768px) {
-  /* Button size adjustments for mobile */
+  /* Make buttons bigger on mobile */
   .image-button {
-    width: 120px;  /* Smaller width for mobile */
-    height: 60px;  /* Smaller height for mobile */
+    width: 180px;  /* Larger width for mobile */
+    height: 100px;  /* Larger height for mobile */
   }
 
   /* Adjust container for mobile to stack buttons */
