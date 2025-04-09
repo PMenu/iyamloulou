@@ -58,3 +58,17 @@
     justify-content: center; /* Center the buttons horizontally */
   }
 }
+
+/* Force white background even in dark mode */
+body {
+  background-color: #fff !important; /* White background for both light and dark mode */
+  color: #000; /* Text color remains black for better contrast */
+}
+
+/* Optional: Override dark mode styles for the background */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #fff !important; /* Ensure the background stays white */
+    color: #000; /* Text color remains black */
+  }
+}
