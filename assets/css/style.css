@@ -1,3 +1,13 @@
+/* Add a background image to the body */
+body {
+  background-color: #fff !important; /* White background for both light and dark mode */
+  color: #000; /* Text color remains black for better contrast */
+  background-image: url('background.png'); /* Path to the background image */
+  background-size: cover; /* Ensure the image covers the entire screen */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
 /* Centering the logo */
 .center {
   display: block;
